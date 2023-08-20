@@ -1,0 +1,138 @@
+/* tablet & mobile */
+@media (max-width:  63.9375em) {
+    .header__mobile {
+        display: flex;
+    }
+    .header{
+        height: 60px;
+    }
+
+    .header-2{
+        margin-top: 60px;
+    }
+
+    .header__navbar{
+        padding: 0 16px;
+        display: none;
+    }
+
+
+    .header-2__navbar{
+        justify-content: center;
+    }
+
+    .none {
+        display: none;
+    }
+    
+
+    .container__category-btn {
+        width: 130px;
+        font-size: 1.8rem;
+        line-height: 48px;
+    }
+
+    .container__adv{
+        background-position: left;
+    }
+
+    .container__border:hover .container__add-cart {
+        display: none;
+
+    }
+
+}
+
+/* tablet */
+@media (min-width: 46.25em) and (max-width:  63.9375em) {
+    .container__category-btn {
+        width: 130px;
+        font-size: 1.8rem;
+        line-height: 48px;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 46.1875em) {
+    .nav__mobile-search-dad {
+        width: 0;
+    }
+
+    .nav__mobile-search-icon {
+        left: -24px;
+        color: #333;
+    }
+
+    .nav__mobile-menu {
+        width: 76%;
+    }
+
+    .navbar-list-mobile{
+        display: none;
+    }
+    
+    .container__category-btn {
+        width: 100px;
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .container__category-list {
+        padding-top: 42px;
+        display: flex;
+        float: left;
+    }
+
+    .container__category-scroll {
+        overflow-x: auto;
+        max-width: 100%;
+        margin: 0 10px;
+    }
+
+    .container__category-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .container__product {
+        margin-top: 30px;
+    }
+
+    .adv__consider {
+        width: 100%;
+        text-align: center;
+        padding: 60px 24px 40px 24px;
+        color: #8f8f8f;
+    }
+    .container__adv {
+        height: 540px;
+    }
+    .adv__heading {
+        font-size: 2.2rem;
+    }
+    .adv__icon {
+        font-size: 1.8rem;
+        position: absolute;
+        left: 74px;
+        margin: -2px 0;
+    }
+    .adv__items-heading {
+        font-size: 1.8rem;
+    }
+    .adv__consider > p,
+    .adv__items--content > p {
+        font-size: 1.4rem;
+    }
+    .adv__items {
+        padding: 40px 20px 0px;
+    }
+
+    .auth-form {
+        width: 360px;
+    }
+
+    .auth-form__socials-title {
+        margin: 0;
+        padding-left: 4px;
+    }
+}
