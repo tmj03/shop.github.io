@@ -50,6 +50,9 @@
         font-size: 1.8rem;
         line-height: 48px;
     }
+    .container__img-pr {
+        width: 190px;
+    }
 
 }
 
@@ -135,4 +138,11 @@
         margin: 0;
         padding-left: 4px;
     }
+
+    .container__img-pr {
+        width: 160px;
+    }
+
+     
+    
 }

@@ -1,14 +1,9 @@
-.container {
-    
-}
 
-.container__products {
-    margin-left: 16px;
-}
 
 .container__back {
     font-size: 1.4rem;
     padding: 20px 0;
+    margin-left: 8px;
 }
 
 .container__back-link {
@@ -28,7 +23,17 @@
 .container__cafe-heading {
     font-size: 3rem;
     color: var(--text-color);
-    margin-top: 38px;
+    margin: 38px 0 0 8px;
     font-weight: 400;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Comforter', cursive;
+}
+
+.container__content {
+    font-size: 14px;
+    line-height: 30px;
+    margin: 14px
+}
+
+.container__content-parent {
+    padding-bottom: 40px;
 }

@@ -224,14 +224,17 @@
     margin-right: 58px;
 }
 
-.header-2__items{
+.header-2__items--link{
     position: relative;
     margin: 0 16px;
     font-size: 1.6rem;
     font-weight: 600;
     color: #333;
     cursor: pointer;
+    text-decoration: none;
+
 }
+
 
 .header-2__items--down{
     position: absolute;
@@ -239,7 +242,7 @@
     top: -2px;
 }
 
-.header-2__items:hover{
+.header-2__items--link:hover{
     color: var(--primary-color);
 }
 
@@ -410,14 +413,20 @@
 
 .nav__mobile-menu-list{
     list-style: none;
-    font-size: 1.8rem;
-    color: var(--text-color);
+    
     margin-top: 8px;
 }
 
 .nav__mobile-menu-item{
     padding: 16px 24px;
     position: relative;
+}
+
+.nav__mobile-link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--text-color);
+
 }
 
 .nav__mobile-menu-item::before {
