@@ -133,7 +133,7 @@
 .navbar-items__user::before{
     content: "";
     position: absolute;
-    top: -12px;
+    top: -11px;
     right: 46px;
     border-color: transparent transparent #fff transparent;
     border-width: 6px 8px;
@@ -197,7 +197,7 @@
 .navbar-items__nocart-label::before{
     content: "";
     position: absolute;
-    top: -12px;
+    top: -11px;
     right: 28px;
     border-color: transparent transparent #fff transparent;
     border-width: 6px 8px;
